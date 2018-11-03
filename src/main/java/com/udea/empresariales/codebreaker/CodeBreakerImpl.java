@@ -14,6 +14,9 @@ public class CodeBreakerImpl implements CodeBreakerController {
 	
 	@Override
 	public ResponseEntity<CodeBreakerDTO> guess(@PathVariable("number") String number) {
+		if(codeBreaker == null) {
+			new CodeBreaker();
+		}
 		String result = codeBreaker.guess(number);
 
 		HttpHeaders responseHeaders = new HttpHeaders();
