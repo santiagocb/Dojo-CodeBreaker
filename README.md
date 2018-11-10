@@ -1,3 +1,4 @@
 # Dojo-CodeBreaker
 
-Sebas, santi, pablo
+Backend: Sebas, santi, pablo
+FrontEnd: Angel, Pablo
