@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CodeBreakerImpl implements CodeBreakerController {
 
-	CodeBreaker codeBreaker;
+	private CodeBreaker codeBreaker;
 	
 	@Override
 	public ResponseEntity<CodeBreakerDTO> guess(@PathVariable("number") String number) {

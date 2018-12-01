@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class CodeBreakerTest {
 
-	CodeBreaker codeBreaker = new CodeBreaker("1234");
+	private CodeBreaker codeBreaker = new CodeBreaker("1234");
 	
 	@Test
 	public void allMatch() {
